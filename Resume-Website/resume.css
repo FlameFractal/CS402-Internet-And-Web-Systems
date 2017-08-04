@@ -1,0 +1,56 @@
+@media only screen and (min-width:1024px){
+	.content{
+		max-width: 40vw;
+	    margin: auto;
+	}
+}
+
+.header{
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+#name{
+	font-family: sans-serif;
+	color: royalblue;
+	margin-bottom: 1vh;
+}
+
+.links{
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+.left{
+	margin-bottom: 2vw;
+}
+
+.right{
+	margin-bottom: 2vw;
+}	
+
+hr{
+	margin: 0px;
+}
+	
+@media only screen and (min-width: 1510px){
+	.left{
+		float:left;
+		max-width: 20vw;
+	}
+
+	.right{
+		float: right;
+		max-width: 20vw;
+	}	
+}
+
+.section{
+	overflow: hidden;
+}
+
+.section-header{
+	font-family: sans-serif;
+	color: cornflowerblue;
+	font-weight: 500;
+}
