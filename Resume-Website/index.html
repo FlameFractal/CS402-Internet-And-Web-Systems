@@ -144,13 +144,11 @@
 
 	    function toggle_materialize(){
 	    	if (materializecss) {
-	    	alert("toggle");
 	    		materializecss.appendTo("head");
 	    		nav.prependTo("body");
 	    		sidenav.prependTo("body");
 	    		materializecss = nav = sidenav = null;
 	    	} else {
-	    	alert("toggle");
 		    	materializecss = $('link[rel=stylesheet][href*="cloudflare.com"]').detach();
 		    	nav = $('.navbar-fixed').detach();
 		    	sidenav = $('.side-nav').detach();	    		
