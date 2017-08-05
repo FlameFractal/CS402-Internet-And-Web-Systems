@@ -17,6 +17,7 @@
 	        <li><a class="btn waves-effect blue"  href="#experience">Experience</a></li>
 	        <li><a class="btn waves-effect blue"  href="#projects">Projects</a></li>
 	        <li><a class="btn waves-effect blue"  href="#references">References</a></li>
+            <li><a class="btn waves-effect grey" href="" onclick="event.preventDefault(); toggle_materialize();">Toggle MaterializeCSS</a></li>
         </ul>
 
 	    <div class="navbar-fixed">
@@ -30,6 +31,7 @@
 		        <li><a class="btn waves-effect blue"  href="#experience">Experience</a></li>
 		        <li><a class="btn waves-effect blue"  href="#projects">Projects</a></li>
 		        <li><a class="btn waves-effect blue"  href="#references">References</a></li>
+            	<li><a class="btn waves-effect grey" href="" onclick="event.preventDefault(); toggle_materialize();">Toggle MaterializeCSS</a></li>
 		      </ul>
 		    </div>
 		  </nav>
@@ -40,7 +42,7 @@
 			<h1 id="name">VISHAL GAUBA</h1>
 			<a href="//vishalgauba.me" class="links">vishalgauba.me</a> |
 			<a href="mailto:vishal.gauba@gmail.com" class="links">vishal.gauba@gmail.com</a> |
-			<a href="tel:+917042841262" class="links">+91-7042841262</a>
+			<a href="tel:+917042841262" class="links">7042841262</a>
 		</div>
 		
 		<hr>
@@ -65,7 +67,7 @@
 
 		<div class="section" id="interests">
 			<h4 class="section-header">INTERESTS</h4>
-			<ul>
+			<ul class="browser-default">
 				<li>Social Network Analysis, Cloud Computing, Machine Learning, Data Mining, Virtualisation, Web &amp; App dev</li>
 				<li>Reading novels (YA, thriller &amp; philosophical), Playing badminton, Blogging, Watching crime dramas.</li>
 			</ul>
@@ -75,7 +77,7 @@
 
 		<div class="section" id="development">
 			<h4 class="section-header">DEVELOPMENT</h4>
-			<ul>
+			<ul class="browser-default">
 				<li><strong>Skilled</strong> - C, C++, Java, PHP, HTML5/CSS3, JavaScript, MySQL, git, node.js</li>
 				<li><strong>Familiar</strong> - MATLAB, Android, Swift, Python, Ruby, Verilog, LaTeX</li>
 			</ul>
@@ -85,7 +87,7 @@
 
 		<div class="section" id="experience">
 			<h4 class="section-header">EXPERIENCE</h4>
-			<ul>
+			<ul class="browser-default">
 				<li><strong>Hasura</strong> (May 2017 - August 2017) - BackEnd and DevOps Intern</li>
 				<li><strong>Student Mentor</strong> (2016)- Freshman batch, Shiv Nadar University</li>
 				<li><strong>Treasurer</strong> (2013) - Computer Society (FORCE), Apeejay School Sheikh Sarai</li>
@@ -98,14 +100,14 @@
 			<h4 class="section-header">PROJECTS</h4>
 			<p class="project">
 				<strong>SNUChat (2014)</strong>
-				<ul>
+				<ul class="browser-default">
 					<li>Created a LAN based Instant Messenger for university students in Java (Swing GUI) in the first semester.</li>
 					<li>Used a remote MySQL db to store user details and handle syncing of dynamic IPs in university network.</li>
 					<li>Included features like Available/Offline marker and custom user statuses.</li>
 				</ul>
 			<p class="project">
 				<strong>GooseChase (2015)</strong>
-				<ul>
+				<ul class="browser-default">
 					<li>Developed a mini search engine to demonstrate usage of different Data Structures in C.</li>
 					<li>Provided fast keyword based search of local-system files and folders through console interface.</li>
 					<li>Included features such as autocorrect, wildcard support and stop word elimination among others.</li>
@@ -137,6 +139,23 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.js"></script>
     <script type="text/javascript">
 	    $(".button-collapse").sideNav();
+
+	    var materializecss, nav, sidenav;
+
+	    function toggle_materialize(){
+	    	if (materializecss) {
+	    	alert("toggle");
+	    		materializecss.appendTo("head");
+	    		nav.prependTo("body");
+	    		sidenav.prependTo("body");
+	    		materializecss = nav = sidenav = null;
+	    	} else {
+	    	alert("toggle");
+		    	materializecss = $('link[rel=stylesheet][href*="cloudflare.com"]').detach();
+		    	nav = $('.navbar-fixed').detach();
+		    	sidenav = $('.side-nav').detach();	    		
+	    	}
+		}
     </script>
 </body>
 </html>
