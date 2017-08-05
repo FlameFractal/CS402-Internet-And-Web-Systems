@@ -1,3 +1,18 @@
+/* Center the navbar buttons */
+
+/*nav.nav-center ul {
+    text-align: center;
+    float: none !important;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none !important;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}*/
+
+
 @media only screen and (min-width:1024px){
 	.content{
 		max-width: 40vw;
@@ -25,7 +40,7 @@
 	margin-bottom: 2vw;
 }
 
-.right{
+.rightside{
 	margin-bottom: 2vw;
 }	
 
@@ -39,7 +54,7 @@ hr{
 		max-width: 20vw;
 	}
 
-	.right{
+	.rightside{
 		float: right;
 		max-width: 20vw;
 	}	

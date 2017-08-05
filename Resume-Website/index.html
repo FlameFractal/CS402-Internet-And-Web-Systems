@@ -2,9 +2,39 @@
 <head>
 	<title>VG Resume</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Include materialize.css only for side navbar -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css" media="screen,projection" />
+	<!-- Custom styling -->
 	<link rel="stylesheet" href="resume.css">
 </head>
 <body>
+		<!-- Materialize Navbar Begin -->
+        <ul id="mobile-demo" class="side-nav">
+            <li><a class="btn waves-effect blue" href="#education">Education</a></li>
+	        <li><a  class="btn waves-effect blue" href="#interests">Interests</a></li>
+	        <li><a class="btn waves-effect blue"  href="#development">Development</a></li>
+	        <li><a class="btn waves-effect blue"  href="#experience">Experience</a></li>
+	        <li><a class="btn waves-effect blue"  href="#projects">Projects</a></li>
+	        <li><a class="btn waves-effect blue"  href="#references">References</a></li>
+        </ul>
+
+	    <div class="navbar-fixed">
+	     <nav class="nav-center">
+		    <div class="nav-wrapper grey darken-3">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a class="btn waves-effect blue" href="#education">Education</a></li>
+		        <li><a  class="btn waves-effect blue" href="#interests">Interests</a></li>
+		        <li><a class="btn waves-effect blue"  href="#development">Development</a></li>
+		        <li><a class="btn waves-effect blue"  href="#experience">Experience</a></li>
+		        <li><a class="btn waves-effect blue"  href="#projects">Projects</a></li>
+		        <li><a class="btn waves-effect blue"  href="#references">References</a></li>
+		      </ul>
+		    </div>
+		  </nav>
+	    </div> <!-- Materialize Navbar End  -->
+
 	<div class="content">
 		<div class="header">
 			<h1 id="name">VISHAL GAUBA</h1>
@@ -15,7 +45,7 @@
 		
 		<hr>
 
-		<div class="section">
+		<div class="section" id="education">
 			<h4 class="section-header">EDUCATION</h4>
 			<div class="left">
 				<strong>Shiv Nadar University (SNU),</strong> Greater Noida
@@ -23,7 +53,7 @@
 				<br>2014 – 2018*
 				<br>Major CGPA - 9.26
 			</div>
-			<div class="right">
+			<div class="rightside">
 				<strong>Apeejay School Sheikh Sarai,</strong> New Delhi
 				<br>Central Board of Secondary Education	
 				<br>2002 - 2014
@@ -33,7 +63,7 @@
 		
 		<hr style="clear: both;">
 
-		<div class="section">
+		<div class="section" id="interests">
 			<h4 class="section-header">INTERESTS</h4>
 			<ul>
 				<li>Social Network Analysis, Cloud Computing, Machine Learning, Data Mining, Virtualisation, Web &amp; App dev</li>
@@ -43,7 +73,7 @@
 
 		<hr>
 
-		<div class="section">
+		<div class="section" id="development">
 			<h4 class="section-header">DEVELOPMENT</h4>
 			<ul>
 				<li><strong>Skilled</strong> - C, C++, Java, PHP, HTML5/CSS3, JavaScript, MySQL, git, node.js</li>
@@ -53,7 +83,7 @@
 
 		<hr>
 
-		<div class="section">
+		<div class="section" id="experience">
 			<h4 class="section-header">EXPERIENCE</h4>
 			<ul>
 				<li><strong>Hasura</strong> (May 2017 - August 2017) - BackEnd and DevOps Intern</li>
@@ -64,7 +94,7 @@
 
 		<hr>
 
-		<div class="section">
+		<div class="section" id="projects">
 			<h4 class="section-header">PROJECTS</h4>
 			<p class="project">
 				<strong>SNUChat (2014)</strong>
@@ -85,19 +115,28 @@
 		
 		<hr>
 		
-		<div class="section">
+		<div class="section" id="references">
 			<h4 class="section-header">REFERENCES</h4>
 			<div class="left">
 				<strong>Dr. Rajeev Kumar Singh,</strong> Asst. Dean of UG Studies
 				<br>Department of Computer Science, Shiv Nadar University
 				<br>Email: <a href="">rajeev.kumar@snu.edu.in</a>
 			</div>
-			<div class="right">
+			<div class="rightside">
 				<strong>Dr. Divya Lohani</strong>, UG Advisor &amp; Asst. Professor
 				<br>Department of Computer Science, Shiv Nadar University
 				<br>Email: <a href="">divya.lohani@snu.edu.in</a>
 			</div>		
 		</div>	
 	</div>
+
+
+
+    <!--For navbar - jQuery & Materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.js"></script>
+    <script type="text/javascript">
+	    $(".button-collapse").sideNav();
+    </script>
 </body>
 </html>
