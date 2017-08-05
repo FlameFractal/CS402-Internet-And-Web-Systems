@@ -20,6 +20,12 @@ nav.nav-center ul li a {
 	}
 }
 
+@media only screen and (max-width:1024px){
+	.content{
+		margin: 2em;
+	}
+}
+
 .header{
 	text-align: center;
 	margin-bottom: 8px;
@@ -36,7 +42,7 @@ nav.nav-center ul li a {
 	text-decoration: none;
 }
 
-.left{
+.leftside{
 	margin-bottom: 2vw;
 }
 
@@ -47,9 +53,11 @@ nav.nav-center ul li a {
 hr{
 	margin: 0px;
 }
+
+
 	
 @media only screen and (min-width: 1510px){
-	.left{
+	.leftside{
 		float:left;
 		max-width: 20vw;
 	}
