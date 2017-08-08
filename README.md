@@ -2,7 +2,10 @@
 
 ### Assignments:
 
-1. Resume Website - https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/index.html
+1. [Resume Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/index.html)
+
+
+
 
 
 
