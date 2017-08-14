@@ -15,7 +15,7 @@
 
 2. [] Web service architectures: SOAP vs REST.
 
-3. [] Front end design / Client & Server side scripting.
+3. [] Front end design / Client & Server side scripting (Raw html,css,js, AJAX, jquery, bootstrap, angularjs, php, nodejs)
 
 4. [] Database servers
 

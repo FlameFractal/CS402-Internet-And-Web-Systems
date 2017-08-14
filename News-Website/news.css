@@ -1,0 +1,49 @@
+body{
+	margin: 0em;
+	/*padding: 8em;*/
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clearfloat{
+	clear: both;
+}
+
+#logo{
+	background: rgba(128,128,128,0.15);
+	border-bottom: solid black 2px;
+}
+
+#logo_text{
+	text-align: center;
+	margin-top: 0em;
+}
+
+.campaign{
+	max-width: 30vw
+}
+
+.news_category{
+	padding-bottom: 15px;
+	border-bottom: solid black 2px;
+}
+
+.category_header{
+	text-align: center;
+}
+
+.news_articles{
+	margin: 20px;
+}
+
+.article{
+	margin: 20px;
+	width: 20vw;
+	height: 20vw;
+}
