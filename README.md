@@ -6,7 +6,9 @@
 2. [News Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/News-Website/)
 
 
+#### Ideas:
 
+- For implementing a web crawler, crawl the mess website and send a text sms or push notification at 7am, 12pm, 7pm with the mess menus daily.
 
 ### Learning objectives:
 
