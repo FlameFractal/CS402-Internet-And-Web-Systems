@@ -1,9 +1,13 @@
+*{
+	box-sizing: border-box;
+}
+
 html, body{
   height:100%;
 }
 
 body{
-	margin: 0em;
+	margin: 0.5em 1.5em;
 }
 
 .left{
@@ -19,39 +23,49 @@ body{
 }
 
 #logo{
+	/*border-radius: 100px;*/
 	height: 10vh;
-	background: rgba(128,128,128,0.15);
+	background: rgba(0,0,0,0.80);
 	border-bottom: solid black 0.1vw;
 }
 
 #logo_text{
+	color: white;
 	line-height: 10vh;
 	text-align: center;
 	margin-top: 0em;
 }
 
 .sidebar-content{
-	width: 23vw;
-	height: 100%;
+	width: 22vw;
+	height: 165%;
 	border-left: solid black 0.1vw;
-	padding: 0.8vw;
+	padding: 0 0.8vw;
 	text-align: center;
 }
 
 .advert{
-	max-width: 23vw;
+	max-width: 20vw;
+	/*border-radius: 10px;*/
 }
 
 .main-content{
-	width: 74vw;
+	width: 71vw;
 }
 
 .news_category{
 	padding-bottom: 1vh;
-	border-bottom: solid black 0.1vw;
+}
+
+.news_articles{
+	padding-left: 1.5vw;
 }
 
 .category_header{
+	/*border-radius: 100px;*/
+	color: white;
+	background: #2196f3;
+	line-height: 1.7em;
 	text-align: center;
 }
 
@@ -60,5 +74,22 @@ body{
 	max-width: 20vw;
 	height: auto;
 	border: solid black 0.1vw;
-	padding: 10px;
+	/*border-radius: 40px;*/
+	padding: 0px;
+}
+
+.article_headline{
+	text-align: center;
+	background-color: rgba(0,0,0,0.80);;
+	color: white;
+	line-height: 2.5em;
+	/*border-radius: 38px 38px 0px 0px;*/
+}
+
+.article_content{
+	padding: 0px 20px;
+}
+
+h3{
+	margin: 0px;
 }
