@@ -1,0 +1,18 @@
+body{
+	margin: 50px;
+	max-width: 1000px;
+	height: auto;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+	margin: 30px;
+}
+.clear{
+	clear: both;
+}
+#canvas{
+	margin-top: 20px;
+}

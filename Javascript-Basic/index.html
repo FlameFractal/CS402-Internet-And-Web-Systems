@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h2 id="header1">Select a shape.</h2>
+	<h2 id="header2" style="display: none;">Enter the dimensions.</h2>
+
+	<div id="shape_buttons" class="left">
+		<input type="radio" name="shape" onclick="draw()" id="square"> <label for="square">Square</label> <br>
+		<input type="radio" name="shape" onclick="draw()" id="rectangle"> <label for="rectangle">Rectangle</label> <br>
+		<input type="radio" name="shape" onclick="draw()" id="circle"> <label for="circle">Circle</label> <br>
+		<input type="radio" name="shape" onclick="draw()" id="triangle"> <label for="triangle">Triangle</label> <br>
+		<input type="radio" name="shape" onclick="draw()" id="hexagon"> <label for="hexagon">Hexagon</label> <br>
+	</div>
+
+	<div id="dimensions" class="left"></div>
+
+	<hr class="clear" id="line" style="display: none;">
+	<canvas id="canvas" width="600px" height="300px"></canvas>
+	
+	<script src="main.js"></script>
+</body>
+</html>

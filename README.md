@@ -4,7 +4,7 @@
 
 1. [Resume Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/)
 2. [News Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/News-Website/)
-
+3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Javascript-Basic/)
 
 #### Ideas:
 
