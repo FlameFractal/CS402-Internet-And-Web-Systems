@@ -2,9 +2,10 @@
 
 ### Assignments:
 
-1. [Resume Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/)
+1. [Resume Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/) 
 2. [News Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/News-Website/)
-3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Javascript-Basic/)
+3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Javascript-Basic/) 
+4. [Quora](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Quora/) 
 
 #### Ideas:
 
@@ -12,15 +13,15 @@
 
 ### Learning objectives:
 
-1. [] Basic understanding of the working of Internet / DNS / Web services / APIs / domains / hosting etc.
+1. [x] Basic understanding of the working of Internet / DNS / Web services / APIs / domains / hosting etc.
 
-2. [] Web service architectures: SOAP vs REST.
+2. [x] Web service architectures: SOAP vs REST.
 
-3. [] Front end design / Client & Server side scripting (Raw html,css,js, AJAX, jquery, bootstrap, angularjs, php, nodejs)
+3. [x] Front end design / Client & Server side scripting (Raw html,css,js, AJAX, jquery, bootstrap, angularjs, php, nodejs)
 
 4. [] Database servers
 
-5. [] Session/Cookie/LocalStorage management
+5. [x] Session/Cookie/LocalStorage management
 
 6. [] Web data-exchange formats (json, xml)
 
@@ -33,3 +34,4 @@
 10. [] Scalability (Messaging Task Queues, Brokers)
 
 11. [] Cloud infrastructure, Containers, Container Orchestration
+

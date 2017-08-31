@@ -99,7 +99,7 @@ a{
 }
 
 .card{
-	box-shadow: 6px 4px 16px 3px rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 31px -2px rgba(0,0,0,0.14), 0 1px 0px 0 rgba(0,0,0,0.12), 0 3px 0px -2px rgba(0,0,0,0.2);
     width: 100%;
 }
 
@@ -163,10 +163,16 @@ footer{
     padding-left: 35px;
     background: #ececec url(https://qsf.ec.quoracdn.net/-3-images.new_grid.QuoraSearch.png-26-cadc30f3f88e3504.png) no-repeat 8px center;
     background-size: 20px;
-    box-shadow: inset 2px 2px 2px rgba(200,200,200,0.3);
+    /* box-shadow: inset 2px 2px 2px rgba(200,200,200,0.3); */
     outline:  none;
     width: 100%;
     margin-right: 50px;
+}
+
+.search-bar > input:focus{
+    background: #fff;
+    box-shadow: inset 3px 3px 3px 0px rgba(200,200,200,0.3);
+	transition: .5s;
 }
 
 .material-icons{
