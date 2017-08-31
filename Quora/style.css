@@ -327,3 +327,19 @@ footer{
 	margin-top: 6%;
 	margin-bottom: 6%;
 }
+
+
+@media only screen and (max-width: 1300px) {
+	.left{
+		float: none;
+	}
+    .aside-panel{
+    	display: none;
+    }
+    .centre-panel{
+    	width: 100%;
+    }
+    #nav-bar{
+    	height: inherit;
+    }
+}
