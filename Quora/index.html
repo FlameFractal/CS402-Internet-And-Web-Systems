@@ -18,6 +18,9 @@
   	<link rel="stylesheet" type="text/css" href="style.css">
   	<link rel="stylesheet" type="text/css" href="sinusoid.css">
 
+  	<script src="gmap.js"></script>
+  	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzJfhQwg42E6p-8DekZP2_gQx0vdByyN4&callback=myMap"></script>
+
 </head>
 <body>
 
@@ -45,6 +48,7 @@
 				<li class="left active hover"><a href="#"><i class="material-icons left text-red">receipt</i>Home</a></li>
 				<li class="left hover"><a href="#"><i class="material-icons left text-grey">create</i>Answer</a></li>
 				<li class="left hover"><a href="#"><i class="material-icons left text-grey">notifications</i>Notifications</a><span class="badge bg-red text-white">4</span></li>
+				<li class="left hover"><a href="javascript:void(0);" onclick="initMap()"><i class="material-icons left text-grey">location_on</i>Location</a></li>
 				<li class="left"><a href=""><img src="dp.jpg" class="user-pic"></a></li>
 				<hr class="clear hide">
 			</ul>
@@ -52,25 +56,18 @@
 		</div>
 	</nav>
 
+	<a name="googleMaps_higher"></a>
+	<section class="content_space">
+	<!-- <div id="googleMap" style="position: absolute; width:100%;height:400px; visibility: hidden; z-index: 5;"> </div> -->
+	<a name="googleMaps"><div id="googleMap" style="width:100%;height:400px; position: fixed; display: none; z-index: 0;"></div></a>
+
+
 	<div class="container aside-panel left bg-white text-black card">
 		<h3 class="feeds-heading font-medium bold text-red left">Feeds</h3> 
 		<a href="" class="right" style="position:relative;top:6px;">Edit</a>
 		<hr class="clear">
-		<div class="text-red font-medium" style="margin-top:10%">Top Stories</div>
-		<div class="text-red font-medium" style="margin-top:10%">Bookmarks</div>
-		
-		<div class="text-black" style="margin-top:15%">Your Topics</div>
-
-		<ul class="fa-ul">
-			<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Tesla (company)</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-orange"></i>New Delhi</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-blue"></i>Indian Premier League</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-green"></i>Psychology</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-yellow"></i>Alphabet Inc.</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-grey"></i>Computer Science</li>
-		</ul>
-		<div class="text-red font-medium" style="margin-top:10%">Top Stories</div>
-		<div class="text-red font-medium" style="margin-top:10%">Bookmarks</div>
+		<div class="text-red font-medium" style="margin-top:10%;font-weight:900">Top Stories</div>
+		<div class="text-grey font-medium" style="margin-top:10%">Bookmarks</div>
 		
 		<div class="text-black" style="margin-top:15%">Your Topics</div>
 
@@ -88,35 +85,27 @@
 	<div class="container aside-panel right bg-white text-black card">
 		<h3 class="feeds-heading font-medium bold text-red left">Improve your Feed</h3> 
 			<hr class="clear">
-			<div class="text-red font-medium" style="margin-top:10%">Saved Questions</div>
-			<div class="text-red font-medium" style="margin-top:10%">Bookmarks</div>
-			
-		<div class="text-black" style="margin-top:15%">Your Topics</div>
+			<ul class="fa-ul">
+				<li class="text-black">Coldplay <div class="upvote button right text-white bg-red"><a href="" >Follow</a></div></li>
+				<li class="text-black">Michael Jackson <div class="upvote button right text-white bg-red"><a href="" >Follow</a></div></li>
+				<li class="text-black">Elon Musk <div class="upvote button right text-white bg-red"><a href="" >Follow</a></div></li>
+			</ul>			  
+			 
+			<div class="text-grey font-medium" style="margin-top:15%">Saved Questions</div>
+			<div class="text-grey font-medium" style="margin-top:10%">Recommended Topics</div>
 
 			<ul class="fa-ul">
 				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Tesla (company)</li>
-				<li class="text-black"><i class="fa-li fa fa-circle text-orange"></i>New Delhi</li>
-				<li class="text-black"><i class="fa-li fa fa-circle text-blue"></i>Indian Premier League</li>
-				<li class="text-black"><i class="fa-li fa fa-circle text-green"></i>Psychology</li>
-				<li class="text-black"><i class="fa-li fa fa-circle text-yellow"></i>Alphabet Inc.</li>
-				<li class="text-black"><i class="fa-li fa fa-circle text-grey"></i>Computer Science</li>
+				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>New Delhi</li>
+				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Indian Premier League</li>
+				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Psychology</li>
+				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Alphabet Inc.</li>
+				<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Computer Science</li>
 			</ul>
-		<div class="text-red font-medium" style="margin-top:10%">Top Stories</div>
-		<div class="text-red font-medium" style="margin-top:10%">Bookmarks</div>
-		<div class="text-black" style="margin-top:15%">Your Topics</div>
-
-		<ul class="fa-ul">
-			<li class="text-black"><i class="fa-li fa fa-circle text-black"></i>Tesla (company)</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-orange"></i>New Delhi</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-blue"></i>Indian Premier League</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-green"></i>Psychology</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-yellow"></i>Alphabet Inc.</li>
-			<li class="text-black"><i class="fa-li fa fa-circle text-grey"></i>Computer Science</li>
-		</ul>
 	</div>
 
 	<div class="container centre-panel left bg-white text-black card">
-		<h3 class="panel-heading font-medium bold text-red">Top Stories For You</h3>
+		<h3 class="panel-heading font-medium bold text-red"><span id="mapheading">Top Stories For You</span></h3>
 		<hr>
 		<div class="post">
 			<div class="post-title">What would happen if 2017 Britain were sent back to June 1940?</div>
@@ -204,7 +193,7 @@
 			document.getElementById('preloader').style.display="none";
 		}, 3000)
 	}
-	preloader();
+	// preloader();
 </script>
 </body>
 </html>
