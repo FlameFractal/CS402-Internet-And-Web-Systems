@@ -1,0 +1,38 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+.jumbotron{
+	margin-top: 3.5em !important;
+	padding-top: 13em;
+	background-image: url('../img/main-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;		
+}
+
+.navbar{
+	background-color: #264e6c;
+	box-shadow: 0 3px 25px 0 rgba(47,56,68,0.22)
+}
+
+.footer{
+ 	position: absolute;
+	bottom: 0;
+	left:  0;
+	width: 100%;
+	line-height: 40px; /* Vertically center the text there */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	color: antiquewhite;
+	background-color: #264e6c;
+	font-size: 14px;
+	font-weight: normal;
+	box-shadow: inset 3px 5px 2px 3px rgba(47,56,68,0.22);
+}
