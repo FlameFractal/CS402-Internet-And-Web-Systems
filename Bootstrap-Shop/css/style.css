@@ -10,10 +10,8 @@ body {
 .jumbotron{
 	margin-top: 3.5em !important;
 	padding-top: 13em;
-	background-image: url('../img/main-bg.jpg');
-	background-repeat: no-repeat;
+	background: url('../img/main-bg.jpg') no-repeat right;
 	background-size: cover;
-	background-position: center bottom;		
 }
 
 .navbar{
@@ -35,4 +33,12 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	box-shadow: inset 3px 5px 2px 3px rgba(47,56,68,0.22);
+}
+
+.card{
+	padding-top: 20px;
+}
+
+.nav-item>.active{
+	box-shadow: inset 1px 1px 5px 0px rgba(47,56,68,0.22);
 }

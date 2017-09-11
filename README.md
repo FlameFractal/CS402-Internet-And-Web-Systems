@@ -8,7 +8,7 @@
 2. [News Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/News-Website/)
 3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Javascript-Basic/) 
 4. [Quora](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Quora/) 
-5. [Bootstrap Shop](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/eCommerce/)
+5. [Bootstrap Shop](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Bootstrap-Shop/)
 #### Ideas:
 
 - For implementing a web crawler, crawl the mess website and send a text sms or push notification at 7am, 12pm, 7pm with the mess menus daily.
