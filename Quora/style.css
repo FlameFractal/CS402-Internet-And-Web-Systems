@@ -106,6 +106,13 @@ a{
 #nav-bar{
 	height: 54px;
 	font-weight: 900;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.content_space{
+	margin-top: 50px;
 }
 
 .logo{
