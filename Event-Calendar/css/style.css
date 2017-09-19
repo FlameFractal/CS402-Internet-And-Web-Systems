@@ -1,0 +1,21 @@
+body{
+	margin-top: 5vh;
+	font-size: 0.7em;
+}
+
+.calendar{
+	margin-top: 5vh;
+}
+
+.user-dropdown{
+	margin-top: 5vh;
+}
+
+.left{
+	float: left;
+}
+
+.day{
+	border:  1px black solid;
+	padding: 1vw 2vw;
+}
