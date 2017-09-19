@@ -59,6 +59,14 @@ function getBookById(bookid) {
   );
 }
 
+function addCategory(categoryName){
+	categoryName = "New Category";
+	obj = `<li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#`+categoryName.replace(" ","-")+`"><strong>`+categoryName+`</strong></a>
+    </li>`;
+	$('#category-tab').append(obj);
+}
+
 function fillBooks(){
 	for(i=0;i<books.length;i++){
 		bookCard = `

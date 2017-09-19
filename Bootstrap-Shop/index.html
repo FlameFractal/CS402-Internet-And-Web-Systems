@@ -33,6 +33,10 @@
           </a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target=".bd-addCategory-modal-lg">Add Category<i class="fa fa-plus fa-fw" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Cart (<span id="numBooks">0</span>) <i class="fa fa-shopping-cart" aria-hidden="true"></i>
           </a>
         </li>
@@ -82,6 +86,40 @@
 
 
 
+            
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add new category modal -->
+<div class="modal fade bd-addCategory-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Add New Category</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <form>
+            <div class="form-group">
+              <label for="category-name" class="form-control-label">Category Name</label>
+              <input type="text" class="form-control" id="category-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="form-control-label">Book Names:</label>
+              <input type="text" class="form-control" id="category-name">
+            </div>
+          </form>
             
           
       </div>
