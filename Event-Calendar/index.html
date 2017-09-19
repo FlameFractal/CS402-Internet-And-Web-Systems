@@ -17,68 +17,73 @@
 
 <body>
 
-  <div class="container">
+  <div class="cust-container">
 
     <div class="row">
       <h1>Event Calendar</h1>
+      
+      <div class="user-dropdown">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">User 1</a>
+            <a class="dropdown-item" href="#">User 2</a>
+            <a class="dropdown-item" href="#">User 3</a>
+            <a class="dropdown-item" href="#">User 4</a>
+            <a class="dropdown-item" href="#">User 5</a>
+          </div>
+        </div>
+      </div>
+
     </div>  
 
-    <div class="row user-dropdown">
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-    </div>
 
     <div class="row calendar">
-      <div class="col day left " id="Monday">
-        <div class="row event">
-          <h2>Monday</h2>
+      <div class="col day left" id="Monday">
+        <div class="row day-header">
+          <h5>Monday</h5>
         </div>
       </div>
-      <div class="col day left " id="Tuesday">
-        <div class="row event">
-          <h2>Tuesday</h2>
+      <div class="col day left" id="Tuesday">
+        <div class="row day-header">
+          <h5>Tuesday</h5>
         </div>
       </div>
       <div class="col day left" id="Wednesday">
-        <div class="row event">
-          <h2>Wednesday</h2>
+        <div class="row day-header">
+          <h5>Wednesday</h5>
         </div>
       </div>
       <div class="col day left" id="Thursday">
-        <div class="row event">
-          <h2>Thursday</h2>
+        <div class="row day-header">
+          <h5>Thursday</h5>
         </div>
       </div>
       <div class="col day left" id="Friday">
-        <div class="row event">
-          <h2>Friday</h2>
+        <div class="row day-header">
+          <h5>Friday</h5>
         </div>
       </div>
       <div class="col day left" id="Saturday">
-        <div class="row event">
-          <h2>Saturday</h2>
+        <div class="row day-header">
+          <h5>Saturday</h5>
         </div>
       </div>
       <div class="col day left" id="Sunday">
-        <div class="row event">
-          <h2>Sunday</h2>
+        <div class="row day-header">
+          <h5>Sunday</h5>
         </div>
       </div>
     </div>
   </div>
 
 
-  <script src="js/jquery-3.2.1.slim.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/events.js"></script>
 

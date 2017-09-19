@@ -1,21 +1,47 @@
 body{
-	margin-top: 5vh;
-	font-size: 0.7em;
-}
-
-.calendar{
-	margin-top: 5vh;
-}
-
-.user-dropdown{
-	margin-top: 5vh;
+	margin: 10vh auto;
 }
 
 .left{
 	float: left;
 }
 
+.user-dropdown{
+	margin-left: 5vh;
+	margin-top: 1vh;
+}
+
+.cust-container{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.calendar{
+	margin-top: 5vh;
+	border:  1px solid black;
+}
+
+.event:nth-child(2){
+	margin-top: 30px;
+}
+
 .day{
-	border:  1px black solid;
+	border:  1px solid black;
+}
+
+.day-header{
+	padding: 10px 30px;
+	border:  1px solid black;
+	color: white;
+	background: black;
+	text-align: center;
+}
+
+.event{
+	margin: 20px auto;
 	padding: 1vw 2vw;
+	background: lightcoral;
+	text-align: center;
+	color: white;
+	border-radius: 50px;
 }
