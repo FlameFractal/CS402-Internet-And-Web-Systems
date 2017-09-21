@@ -12,8 +12,9 @@ $( document ).ready(function() {
 		fillEvents($(this).text().toLowerCase().replace(" ","_"));
 	});	
 
-	// Make events draggable - Jquery ui
+
 	$( ".draggable" ).draggable();
+	$('[data-toggle="popover"]').popover();
 
 });
 
@@ -39,3 +40,11 @@ function clearCalendar(){
 	var obj = `<div class="col day left" id="Monday"> <div class="row day-header"> <h5>Monday</h5> </div></div><div class="col day left" id="Tuesday"> <div class="row day-header"> <h5>Tuesday</h5> </div></div><div class="col day left" id="Wednesday"> <div class="row day-header"> <h5>Wednesday</h5> </div></div><div class="col day left" id="Thursday"> <div class="row day-header"> <h5>Thursday</h5> </div></div><div class="col day left" id="Friday"> <div class="row day-header"> <h5>Friday</h5> </div></div><div class="col day left" id="Saturday"> <div class="row day-header"> <h5>Saturday</h5> </div></div><div class="col day left" id="Sunday"> <div class="row day-header"> <h5>Sunday</h5> </div></div></div>`;
   $(".calendar").html(obj);
 }
+
+// Keyboard input to select user
+$(document).keypress(function(e){
+	if(e.which>=49 && e.which<=53){
+		fillEvents("user_"+(e.which-48));
+		$('#dropdownMenuButton').text("User "+(e.which-48));
+	}
+});
