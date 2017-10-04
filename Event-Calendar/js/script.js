@@ -26,7 +26,7 @@ function fillEvents(user_id){
 
     events[user_id].map(function(event){	
       obj = `<div class="row eve ui-widget-content draggable">
-  				<div class="event">
+  				<div class="event card">
   	          <h6>`+event.title+`</h6>
   	        </div>
   	        </div>`;
