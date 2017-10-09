@@ -10,6 +10,8 @@
 4. [Quora](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Quora/) 
 5. [Bootstrap Shop](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Bootstrap-Shop/)
 6. [Weekly Event Calendar](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Event-Calendar/)
+7. [Map Reduce Practice Lab](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/MapReduce-Practice-Lab/)
+
 ### Ideas:
 
 - For implementing a web crawler, crawl the mess website and send a text sms or push notification at 7am, 12pm, 7pm with the mess menus daily.

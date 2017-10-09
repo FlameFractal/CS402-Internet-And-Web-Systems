@@ -1,0 +1,16 @@
+body{
+	margin: 10vh auto;
+}
+
+.form-control{
+	margin-top: 10px;
+}
+
+.user-dropdown{
+	margin-left: 5vh;
+	margin-top: 1vh;
+}
+
+.pageheading{
+	color: lightcoral;
+}
