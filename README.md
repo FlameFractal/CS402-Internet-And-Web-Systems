@@ -14,7 +14,7 @@
 
 ### Ideas:
 
-- For implementing a web crawler, crawl the mess website and send a text sms or push notification at 7am, 12pm, 7pm with the mess menus daily.
+[x] For implementing a web crawler, crawl the mess website and send a text sms or push notification at 7am, 12pm, 7pm with the mess menus daily. :white_check_mark: [can be found here](https://github.com/flamefractal/SNU-Mess-Menu-Notifs)
 
 ### Learning objectives:
 
