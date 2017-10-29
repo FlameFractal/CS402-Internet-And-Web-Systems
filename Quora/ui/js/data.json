@@ -1,0 +1,28 @@
+{
+	"vishal": {
+		"user-pic": "img/dp.jpg",
+		"user-name": "Vishal Gauba",
+		"user-desc": "I am an American living in London",
+		"topics": ["Tesla (company)","New Delhi","Indian Premier League","Psychology","Alphabet Inc.","Computer Science"],
+		"answers": [
+			{
+				"ques_id" : "1",
+				"title": "What would happen if 2017 Britain were sent back to June 1940?",
+				"text": "<p>I enjoy hypotheticals. So I’ll take this one seriously. So far, other people have focused on the weight of 2017 Britain crushing the 1940 Britain, but I assume that is not the spirit in which the question was asked. Still, to be clear, I’ll try to outline some of my assumptions first, and then speculate on “what would happen”.<br><br><span class='bold'>Assumptions:</span> 2017 Britain is magically transported back in time to 1940, and just so we don’t weep for the deaths of the 1940 British, we’ll assume that a fork in the universe happened and they carry on in that branch unaffected by this change. Earth One (the one we live in) is the same. We are now talking about Earth Two, where this surprising thing happened.</p>",
+				"date": "July 14",
+				"num_views": "19.4k",
+				"num_upvotes": "2k",
+				"num_comments": "60"
+			},
+			{
+				"ques_id" : "2",
+				"title": "What would happen if 2017 Britain were sent back to June 1940?",
+				"text": "<p>I enjoy hypotheticals. So I’ll take this one seriously. So far, other people have focused on the weight of 2017 Britain crushing the 1940 Britain, but I assume that is not the spirit in which the question was asked. Still, to be clear, I’ll try to outline some of my assumptions first, and then speculate on “what would happen”.<br><br><span class='bold'>Assumptions:</span> 2017 Britain is magically transported back in time to 1940, and just so we don’t weep for the deaths of the 1940 British, we’ll assume that a fork in the universe happened and they carry on in that branch unaffected by this change. Earth One (the one we live in) is the same. We are now talking about Earth Two, where this surprising thing happened.</p>",
+				"date": "July 14",
+				"num_views": "19.4k",
+				"num_upvotes": "2k",
+				"num_comments": "60"
+			}
+		]
+	}
+}

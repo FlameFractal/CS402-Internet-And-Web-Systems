@@ -7,31 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<!-- Custom Javascript helper functions -->
-	<script type="text/javascript" src="script.js"></script>
-
-    <!-- Check if user is logged in -->
-    <script type="text/javascript">
-		checkLogin();
-	</script>
-
+	<script type="text/javascript" src="js/main.js"></script>
 
 	<!--Import Fonts-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Libre+Baskerville|Noto+Sans" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
  	
   	<!-- Custom stylesheet -->
-  	<link rel="stylesheet" type="text/css" href="reset.css">
-  	<link rel="stylesheet" type="text/css" href="style.css">
-  	<link rel="stylesheet" type="text/css" href="sinusoid.css">
+  	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link rel="stylesheet" type="text/css" href="css/sinusoid.css">
 
   	<!-- Google Maps -->
-  	<script src="gmap.js"></script>
+  	<script src="js/gmap.js"></script>
   	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzJfhQwg42E6p-8DekZP2_gQx0vdByyN4&callback=myMap"></script>
 	
 </head>
 <body>
 
-<div id="preloader" class="hide">
+<div id="preloader">
 	<div class="circle" id="id1"></div>
 	<div class="circle" id="id2"></div>
 	<div class="circle" id="id3"></div>
@@ -44,7 +38,7 @@
 	<div class="circle" id="id10"></div>
 </div>
 
-<div id="main">
+<div id="main" class="hide">
 	
 	<nav id="nav-bar" class="card bg-white text-red">
 		<div class="container">
@@ -57,7 +51,7 @@
 				<li class="left hover"><a href="#"><i class="material-icons left text-grey">notifications</i>Notifications</a><span class="badge bg-red text-white">4</span></li>
 				<li class="left hover"><a href="#googleMap" onclick="initMap()"><i class="material-icons left text-grey">location_on</i>Location</a></li>
 				<li class="left hover"><a href="#" onclick="setCookie('loggedin',''); checkLogin()"><i class="material-icons left text-grey">exit_to_app</i>Log Out</a></li>
-				<li class="left"><a href=""><img src="dp.jpg" class="user-pic"></a></li>
+				<li class="left"><a href=""><img src="img/dp.jpg" class="user-pic"></a></li>
 				<hr class="clear hide">
 			</ul>
 			<hr class="clear hide">
@@ -117,7 +111,7 @@
 		<hr>
 		<div class="post">
 			<div class="post-title">What would happen if 2017 Britain were sent back to June 1940?</div>
-			<div class="post-pic left fullheight"><img src="dp.jpg" class="author-pic"></div>
+			<div class="post-pic left fullheight"><img src="img/dp.jpg" class="author-pic"></div>
 			<div class="post-content left">
 				<div class="author-details"><span class="bold">Jimmy Wales</span>, <span class="author-description">I am an American living in London</span>.</div>
 				<div class="answer">
@@ -151,7 +145,7 @@
 
 		<div class="post">
 			<div class="post-title">What would happen if 2017 Britain were sent back to June 1940?</div>
-			<div class="post-pic left fullheight"><img src="dp.jpg" class="author-pic"></div>
+			<div class="post-pic left fullheight"><img src="img/dp.jpg" class="author-pic"></div>
 			<div class="post-content left">
 				<div class="author-details"><span class="bold">Jimmy Wales</span>, <span class="author-description">I am an American living in London</span>.</div>
 				<div class="answer">
@@ -190,6 +184,10 @@
 
 <script type="text/javascript">
 	document.body.style.zoom="80%";
+
+    <!-- Check if user is logged in -->
+	checkLogin();
+
 </script>
 
 </body>

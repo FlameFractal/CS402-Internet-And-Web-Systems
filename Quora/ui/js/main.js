@@ -4,13 +4,13 @@ function preloader(){
     setTimeout(function show(){
         document.getElementById('main').style.display="block";
         document.getElementById('preloader').style.display="none";
-    }, 3000)
+    }, 2000)
 }
 
 function login(){
     if (document.getElementById('email').value === "vishal" && document.getElementById('password').value === 'password'){
         setCookie('loggedin', 'yes');
-        document.location.href='../Quora/index.html'
+        document.location.href='/'
     } else{
         document.getElementById('error2').style.display = 'none'
         document.getElementById('error').style.display = 'block'
@@ -18,8 +18,10 @@ function login(){
 }
 
 function checkLogin(){
+    console.log('checking login...')
+    console.log(getCookie('loggedin'))
     if (getCookie('loggedin')===''){
-        document.location.href='../Quora/login.html'
+        document.location.href='/login'
     }
     else{
         preloader();
