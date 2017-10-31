@@ -18,11 +18,16 @@ app.use("/js", express.static(__dirname+'/ui/js'));
 
 app.get('/', function (req, res) {
     user = 'vishal'
-    res.send(template_homepage(user));
+    // res.send(template_homepage(user));
+    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/login', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+});
+
+app.get('/trending/:location', function (req, res) {
+    res.send(data[req.params.location]);
 });
 
 var port = process.env.PORT || 7998;  // Use 8080 for local development because you might already have apache running on 80
