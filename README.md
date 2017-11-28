@@ -1,16 +1,16 @@
 # CS402-Internet-And-Web-Systems
 
-[CSS Properties Descriptions](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/CSSProperties/)
+[CSS Properties Descriptions](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/CSSProperties/)
 
 ### Assignments:
 
-1. [Resume Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Resume-Website/) 
-2. [News Website](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/News-Website/)
-3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Javascript-Basic/) 
-4. [Quora](https://github.com/FlameFractal/CS402-Internet-And-Web-Systems/tree/master/Quora)
-5. [Bootstrap Shop](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Bootstrap-Shop/)
-6. [Weekly Event Calendar](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/Event-Calendar/)
-7. [Map Reduce Practice Lab](https://flamefractal.github.io/CS402-Internet-And-Web-Systems/MapReduce-Practice-Lab/)
+1. [Resume Website](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/Resume-Website/) 
+2. [News Website](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/News-Website/)
+3. [JS-Basic Draw-Shapes](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/Javascript-Basic/) 
+4. [Quora](https://github.com/FlameFractal/CSD402-Internet-And-Web-Systems/tree/master/Quora)
+5. [Bootstrap Shop](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/Bootstrap-Shop/)
+6. [Weekly Event Calendar](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/Event-Calendar/)
+7. [Map Reduce Practice Lab](https://flamefractal.github.io/CSD402-Internet-And-Web-Systems/MapReduce-Practice-Lab/)
 
 ### Ideas:
 
