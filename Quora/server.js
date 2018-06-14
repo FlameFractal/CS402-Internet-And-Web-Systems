@@ -30,7 +30,7 @@ app.get('/trending/:location', function (req, res) {
     res.send(data[req.params.location]);
 });
 
-var port = process.env.PORT || 7998;  // Use 8080 for local development because you might already have apache running on 80
+var port = process.env.PORT || 7978;  // Use 8080 for local development because you might already have apache running on 80
 app.listen(port, function () {
         // config.password = 
         console.log(`Quora is listening on port ${port}!`);
